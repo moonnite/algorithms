@@ -2,7 +2,10 @@ import java.util.Arrays;
 
 public class InsertionSort {
     public static void main(String[] args) {
-        System.out.println("Insertion Sort");
+        int[] iArray = {38, 49, 12, 36, 88, 15, 6, 61};
+        System.out.println("Before sorting: "+Arrays.toString(iArray));
+        insertionSort(iArray);
+        System.out.println("After sorting: "+Arrays.toString(iArray));
     }
 
     public static void insertionSort(int[] iarray){
